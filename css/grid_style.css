@@ -1,0 +1,54 @@
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.main-window {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainboard {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.first-net-img {
+    grid-area: 1 / 1 / 3 / -1;
+    margin: 10px;
+}
+
+.second-net-img-1 {
+    grid-area: 3 / 1/ 3 / 3;
+    margin: 10px;
+}
+
+.second-net-img-2 {
+    grid-area: 3 / 3/ 3 / 5;
+    margin: 10px;
+}
+
+.second-net-img-3 {
+    grid-area: 3 / 5/ 3 / -1;
+    margin: 10px;
+}
+
+.third-net-img-1 {
+    grid-area: 5 / 1 / -1 / 4;
+    margin: 10px;
+}
+
+.third-net-img-2 {
+    grid-area: 5 / 4 / -1 / -1;
+    margin: 10px;
+}
