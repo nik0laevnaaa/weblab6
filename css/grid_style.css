@@ -8,7 +8,7 @@
 
 .main-window {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 4rem auto;
 }
 
 .dashboard {
@@ -51,4 +51,35 @@
 .third-net-img-2 {
     grid-area: 5 / 4 / -1 / -1;
     margin: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
+    padding-top: 16px;
+}
+
+.gallery div {
+    display: grid;
+}
+
+.gallery img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    z-index: 0;
+    grid-area: content;
+}
+
+.gallery a {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    place-self: center;
+    z-index: 1;
+    grid-area: content;
 }

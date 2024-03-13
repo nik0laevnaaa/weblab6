@@ -40,8 +40,7 @@ main {
 }
 
 .wrapper {
-    max-width: 390px;
-    min-width: 355px;
+    min-width: 390px;
 }
 
 .nav {
@@ -50,7 +49,7 @@ main {
     align-items: center;
     gap: 220px;
     margin-top: 40px;
-    margin-bottom: 69px;
+    margin-bottom: 58px;
 }
 
 footer {
@@ -117,7 +116,7 @@ button {
 .action h1 {
     font-size: 2.8rem;
     font-weight: 800;
-    margin: 0 27.8px 0 34.2px;
+    margin: 31px 27.8px 0 34.2px;
 }
 
 .logo-1#str-2,
@@ -293,8 +292,6 @@ header a {
     gap: 8px;
 }
 
-.ellipse-right,
-.ellipse-left,
 .star {
     width: 16px;
     height: 16px;
@@ -303,15 +300,15 @@ header a {
 
 .ellipse-right {
     position: absolute;
-    top: -11px;
-    right: -6.52px;
+    top: 0px;
+    right: 0px;
     border-radius: 100%;
 }
 
 .ellipse-left {
     position: absolute;
     top: 212px;
-    left: -7.93px;
+    left: 0px;
     border-radius: 100%;
 }
 
@@ -424,6 +421,7 @@ header a {
     align-items: center;
     gap: 50px;
     margin-bottom: 99px;
+    overflow: hidden;
 }
 
 .intro {
